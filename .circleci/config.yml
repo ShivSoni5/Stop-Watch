@@ -22,5 +22,5 @@ jobs:
           name: run tests
           command: |
             . venv/bin/activate
-            black --line-length=79
+            black --line-length=79 watch.py
             flake8 --exclude=venv* --statistics
