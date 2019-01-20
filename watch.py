@@ -12,7 +12,7 @@ while True:
             print("Time Elapsed: ", seconds, "seconds", end="\r")
             time.sleep(1)
     except KeyboardInterrupt:
-        print("Stopped")
+        print("\nStopped")
         endtime = time.time()
         print("Total Time:", round(endtime - starttime, 2), "seconds")
         break
